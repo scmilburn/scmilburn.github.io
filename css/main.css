@@ -1,0 +1,59 @@
+body,h1,h2,p,dd,ol,ul{
+	margin:0;padding:0;
+}
+
+h1,h2,p,ul,ol{
+	margin-bottom:1.5rem;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.embed-container{
+	max-width:100%;vertical-align:middle;margin:3rem auto;
+	position:relative;padding-bottom:56.25%;height:0;overflow:hidden;
+	}
+.embed-container iframe,.embed-container object,.embed-container embed{
+	position:absolute;top:0;left:0;width:100%;height:100%;
+}
+
+.wrapper{
+	max-width:-webkit-calc(800px - (3rem * 2));
+	max-width:calc(800px - (3rem * 2));
+	margin-right:auto;
+	margin-left:auto;
+	padding-right:3rem;padding-left:3rem;
+}
+
+@media screen and (max-width: 800px) {.wrapper{max-width:-webkit-calc(800px - (3rem));max-width:calc(800px - (3rem));padding-right:1.5rem;padding-left:1.5rem;}}
+.wrapper:after{content:"";display:table;clear:both;}
+.icon>svg{display:inline-block;width:1rem;height:1rem;vertical-align:middle;}
+.icon>svg path{fill:#555555;}
+body{font-family:"Inconsolata","Courier New",monospace;font-size:18px;line-height:1.625;font-weight:400;color:#555555;-webkit-text-size-adjust:100%;}
+h1,h2 {font-family:"Hind","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:600;}
+a{color:#4d4d4d;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code{color:#4d4d4d;}
+.site-header{min-height:5rem;position:relative;}
+.site-header .wrapper{border-bottom:1px solid #cccccc;}
+.site-title{font-weight:900;}
+.site-nav{float:left;line-height:5rem;}
+.site-nav .page-link{color:#555555;line-height:1.625;}
+.site-nav .page-link:not(:first-child){margin-left:20px;}
+.site-nav-right{float:right;}
+@media screen and (max-width: 800px) {.site-nav-right{display:none;}}
+.site-footer{padding:0 0 2.25rem;margin:0;}
+.page-content{padding:3rem 0;}
+.page-heading{font-size:20px;}
+
+@media screen and (max-width: 800px) {.post-list>a{padding:2.25rem 1.5rem;}}
+@media screen and (max-width: 800px) {.post-list>a h2,.post-list>a p{line-height:1.35;}}
+.home .post-meta{color:#ffffff;}
+@media screen and (max-width: 800px) {.excerpt{display:none;}}
+@media screen and (max-width: 800px) {.post-link h2{font-size:2.5rem;}}
+
+@media screen and (max-width: 800px) {.post-title{font-size:3rem;}}
+@media screen and (max-width: 800px) {.post-content h2{font-size:2rem;}}
+
+::selection{background-color:#cccccc;color:#ffffff;}::-moz-selection{background-color:#cccccc;color:#ffffff;}

@@ -76,6 +76,8 @@ h1,h2 {
 }
 
 aside {
+	/*background-image: url(http://www.rfa.co.za/rfa/images/flippingbook/abstract_background_blue.jpg);
+  	background-size: cover;*/
     line-height:30px;
     height:300px;
     width:100px;
@@ -87,8 +89,11 @@ aside :hover{
 	text-decoration: underline;
 }
 section {
+	/*background-image: url(http://content.internetvideoarchive.com/content/photos/1428/06000501_.jpg);
+  	background-size: cover;
+	*/
 	margin-left: 200px;
-    width:800px;
+    width:65%;
     padding:40px; 
 }
 a{
@@ -121,6 +126,10 @@ a code{
 .site-nav-left :hover{
 	color: green;
 }
+.action-link :hover{
+	text-decoration: underline;
+}
+
 .site-nav .page-link{
 	color:#;
 	line-height:1.625;

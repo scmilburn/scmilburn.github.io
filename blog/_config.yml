@@ -1,9 +1,10 @@
 # Site settings
-title: Simon's Blog
+title: Simon title
 email: simoncmilburn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    Welcome to my blog. This will probably be a collection of random 
-    things. Hope to update with current projects. 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://scmilburn.com" # the base hostname & protocol for your site
 twitter_username: bitcamp_roomba

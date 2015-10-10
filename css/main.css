@@ -130,6 +130,10 @@ a code{
 	text-decoration: underline;
 }
 
+.projects{
+	display: inline-block;
+}
+
 .site-nav .page-link{
 	color:#;
 	line-height:1.625;

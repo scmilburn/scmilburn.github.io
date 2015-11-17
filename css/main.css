@@ -27,7 +27,8 @@ h1,h2,p,ul,ol{
 }
 
 @media screen and (max-width: 800px) {
-	.wrapper{max-width:-webkit-calc(800px - (3rem));
+	.wrapper{
+		max-width:-webkit-calc(800px - (3rem));
 		max-width:calc(800px - (3rem));
 		padding-right:1.5rem;
 		padding-left:1.5rem;
@@ -87,20 +88,23 @@ h1,h2 {
 	font-weight:600;
 }
 
-aside {
+.menu {
 	/*background-image: url(http://www.rfa.co.za/rfa/images/flippingbook/abstract_background_blue.jpg);
   	background-size: cover;*/
+  	position: fixed;
+  	/*background-color: lightgreen;*/
     line-height:30px;
     height:500px;
-    width:100px;
+    width:150px;
     float:left;
     padding:35px; 
 }
-aside :hover{
+.menu :hover{
 	color: #F5C817;
 	text-decoration: underline;
 }
-section {
+
+.content {
 	/*background-image: url(http://content.internetvideoarchive.com/content/photos/1428/06000501_.jpg);
   	background-size: cover;
 	*/
@@ -108,6 +112,7 @@ section {
     width:65%;
     padding:50px; 
 }
+
 a{
 	color:#4d4d4d;
 	text-decoration:none;

@@ -33,13 +33,15 @@ h1,h2 {
 }
 
 .wrapper{
-	left:150px;
 	/*max-width:-webkit-calc(800px - (3rem * 2));
 	max-width:calc(800px - (3rem * 2));
 	margin-right:auto;
 	margin-left:auto;*/
+	position:fixed;
+	width:100%;
 	padding-right:3rem;
 	padding-left:3rem;
+	background-color: white;
 }
 
 /*@media screen and (max-width: 800px) {
@@ -112,7 +114,7 @@ h1,h2 {
 	/*background-image: url(http://content.internetvideoarchive.com/content/photos/1428/06000501_.jpg);
   	background-size: cover;
 	
-	background-color: lightgreen;*/
+	*/
 	margin-left: 185px;
     width:65%;
     padding:20px;

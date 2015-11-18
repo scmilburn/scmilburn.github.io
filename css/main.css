@@ -82,11 +82,6 @@ h1,h2 {
 	width: 20px;
 }
 
-.post-list
-{
-	display: flex;
-	flex-flow: row wrap;
-}
 .post-item
 {
 	margin-bottom: 1rem;
@@ -154,8 +149,10 @@ a code{
 	text-decoration: underline;
 }
 
-.projects{
-	display: inline-block;
+.projects{ 
+    display: inline-block;
+    float: left;
+    padding-left:20px;
 }
 
 .site-nav .page-link{
@@ -165,17 +162,12 @@ a code{
 .site-nav .page-link:not(:first-child){
 	margin-left:20px;
 }
-.site-nav-right{float:right;}
+.site-nav-right{
+    float:right;
+    padding-top:25px;
+    padding-right: 100px;
+}
 @media screen and (max-width: 800px) {.site-nav-right{display:none;}}
 .site-footer{padding:0 0 2.25rem;margin:0;}
 .page-content{padding:3rem 0;}
 .page-heading{font-size:20px;}
-
-@media screen and (max-width: 800px) {.post-list>a{padding:2.25rem 1.5rem;}}
-@media screen and (max-width: 800px) {.post-list>a h2,.post-list>a p{line-height:1.35;}}
-.home .post-meta{color:#ffffff;}
-@media screen and (max-width: 800px) {.excerpt{display:none;}}
-@media screen and (max-width: 800px) {.post-link h2{font-size:2.5rem;}}
-
-@media screen and (max-width: 800px) {.post-title{font-size:3rem;}}
-@media screen and (max-width: 800px) {.post-content h2{font-size:2rem;}}

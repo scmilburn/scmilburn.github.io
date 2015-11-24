@@ -114,7 +114,7 @@ Particle.prototype.update = function() {
 // Draw a line to another
 Particle.prototype.display = function(other) {
   stroke(0, this.lifespan);
-  fill(0, this.lifespan/2);    
+  fill(30, 99, 233 );   
   ellipse(this.position.x,this.position.y, 8, 8);    
   // If we need to draw a line
   if (other) {

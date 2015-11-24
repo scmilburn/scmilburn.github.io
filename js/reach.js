@@ -1,8 +1,8 @@
-var numSegments = 16,
+var numSegments = 14,
   x = [],
   y = [],
   angle = [],
-  segLength = 26,
+  segLength = 22,
   targetX, targetY,
   ballX = 50,
   ballY = 50,
@@ -37,9 +37,11 @@ function draw() {
   if(ballY > height-25 || ballY < 25) {
     ballYDirection *= -1;
   }
+  //fill(255, 255, 0);
   ellipse(ballX, ballY, 30, 30);
 
   reachSegment(0, ballX, ballY);
+  //fill(69, 139, 0);
   for(var i=1; i<numSegments; i++) {
     reachSegment(i, targetX, targetY);
   }

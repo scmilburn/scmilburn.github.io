@@ -75,6 +75,14 @@ h1,h2 {
 	fill:red;
 }
 
+.mail-page{
+	text-align: center;
+}
+.mail-page>img{
+	display: block;
+	margin:0 auto;
+
+}
 .articles{
 	width: 20px;
 }

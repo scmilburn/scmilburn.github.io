@@ -10,8 +10,8 @@ function setup() {
 function draw() {
   background(50);
   
-  for (var j = height; j >= 0; j -= 20){
-    for(var i = width; i >= 0; i -= 20){
+  for (var j = height+40; j >= 0; j -= 20){
+    for(var i = width+40; i >= 0; i -= 20){
       var size = dist(mouseX, mouseY, i, j);
       var x = 230 + (y % 35);
       
@@ -20,7 +20,7 @@ function draw() {
       var b = random(230, 255);
       size = size/5 + 25;
       fill(r, g, b);
-      ellipse(i, j, size, size);
+      ellipse((i-40), (j-40), size, size);
     }
     
   }

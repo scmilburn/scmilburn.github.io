@@ -175,6 +175,11 @@ a code{
     padding-left:20px;
 }
 
+.projects>img{
+	padding:1px;
+	border:1px solid #021a40;
+}
+
 .proj-link:hover{
     color: #F5C817;
     text-decoration: underline;

@@ -1,4 +1,4 @@
-var numSegments = 13,
+var numSegments = 14,
   x = [],
   y = [],
   x2 = [],

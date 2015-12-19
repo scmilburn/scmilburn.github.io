@@ -1,7 +1,7 @@
-body,h1,h2,p,dd,ol,ul{
+/*body,h1,h2,p,dd,ol,ul{
 	margin:0;padding:0;
 }
-
+*/
 iframe{
     border:1px;
 }
@@ -10,17 +10,25 @@ h1,h2,p,ul,ol{
 }
 
 .action-link{
-	font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
-	font-size: 21px;
-
+    font-family: Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+    font-size: 21px;
 }
 
 .content {
-	font-family: "Inconsolata","Courier New",monospace;
-	font-size:16px;
+	font-family: "Trebuchet MS";
+    font-size:16px;
 	margin-left: 185px;
     width:65%;
-    padding:20px;
+    padding-top:20px;
+}
+.content-box{
+    padding-top:20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    background-color: #eee;
+    border-radius: 3px;
+    border-bottom: 2px solid #ddd;
 }
 
 .body{
@@ -133,8 +141,6 @@ h1,h2 {
 	color: #F5C817;
 	text-decoration: underline;
 }
-
-
 
 a{
     color:#4d4d4d;

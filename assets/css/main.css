@@ -2955,6 +2955,7 @@
 		/* One */
 
 			#about:before {
+				background-image: url("../images/banner.jpg");
 				height: 7em;
 			}
 
